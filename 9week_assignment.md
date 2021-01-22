@@ -73,6 +73,7 @@
 ## 자바가 제공하는 예외 계층 구조
 
 ![](https://howtodoinjava.com/wp-content/uploads/2013/04/exceptionhierarchy3-8391226.png)
+
 출처: https://howtodoinjava.com/best-practices/java-exception-handling-best-practices/
 
 - Exception과 Error클래스가 Throwable 클래스를 상속 받고 있습니다.
