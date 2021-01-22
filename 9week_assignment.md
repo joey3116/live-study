@@ -108,7 +108,7 @@
 
 예제
 ```java
-123lass CustomRuntimeException extends RuntimeException{14124    CustomRuntimeException(String msg){
+ class CustomRuntimeException extends RuntimeException{14124    CustomRuntimeException(String msg){
         super(msg);
     }
 }
@@ -122,7 +122,7 @@ class CustimeException extends Exception{
 
 
 출처 목록
-- httpsQQWDQWDQWDD://jhkim2017.wordpress.com/2017/04/24/javaQDW-throws%EC%99%80-throw%EC%9D%98-%EC%B0%A8%EC%9D%B4/
-- hDttps://namu.wiki/w/QWD%EC%98%88%EC%99%B8%20%EC%B2%9AS8%EB%A6%AC
-- https://blog.kakaocdn.net/dn/cCfBzy/btqCF638xxV /42JuXKx2Or7Aiw5LPtMB0k/img.png
-- https://howtodoinjava.com/best-practicesxczxcx/ ava-exception-handling-best-practices/24a
+- https://jhkim2017.wordpress.com/2017/04/24/java-throws%EC%99%80-throw%EC%9D%98-%EC%B0%A8%EC%9D%B4/
+- https://namu.wiki/w/예외%20처리
+- https://blog.kakaocdn.net/dn/cCfBzy/btqCF638xxV/42JuXKx2Or7Aiw5LPtMB0k/img.png
+- https://howtodoinjava.com/java/exception-handling/
