@@ -109,13 +109,14 @@
 
 예제
 ```java
- class CustomRuntimeException extends RuntimeException{14124    CustomRuntimeException(String msg){
+ class CustomRuntimeException extends RuntimeException{
+ CustomRuntimeException(String msg){
         super(msg);
     }
 }
 
 class CustimeException extends Exception{
-	public BadBankingExcCustimeExceptioneption(String msg) {
+	public CustimeException(String msg) {
 		super(msg);
 	}
 }
