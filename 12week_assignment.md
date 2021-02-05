@@ -167,3 +167,16 @@ public @interface HelloAnn(){
 - 애노테이션이 붙은 클래스를 정보를 트리 구조로 참조 할 수 있다.(AST)
     - abstract syntax tree
 - Annotation Parser classese는 오직 프로젝트 컴파일 할때만 필요(빌드 끝나면 쓰이지 않음)
+- 대표적인 사용 예) - Lombok
+- 원래는 애노테이션이 붙은 클래스를 참조만 가능하고, 수정하면 되지 않는다.
+- Lombok은 정상적이지 않게 수정까지 하여, 해킹이라고 한다.
+    - 대안 : 완벽히 대인이 되지는 못해 Lombok이 많이 쓰임
+        - AutoValue
+        - Immuatables
+
+
+# 출처
+- https://honbabzone.com/java/java-anontation/
+- https://www.inflearn.com/course/the-java-code-manipulation
+- https://andole98.github.io/java/java-annotation-process/#
+- https://medium.com/@jintin/annotation-processing-in-java-3621cb05343a
