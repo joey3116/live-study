@@ -152,7 +152,7 @@ public class Method05 {
         Car tcpCar = new Car(); System.out.println(tcpCar.getModel());
     }
 }
-``
+```
 
 # 출처
 - http://www.tcpschool.com/java/java_class_intro
