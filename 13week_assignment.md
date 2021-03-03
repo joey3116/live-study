@@ -127,8 +127,6 @@
     - DataInputStream, DataOutputStream
 
 
-
-출처: https://story.stevenlab.io/96 [::: STEVEN J.S MIN's Story :::]
 ## Character Stream
 - Byte들을 2Byte씩 묶어서 사용 할 수 있고, 1Byte 단위로 사용할 수 있다. 
 - 그것은 문자 인코딩에 따라서 다르게 사용
@@ -149,11 +147,11 @@
 - 각 장치에 맞게 Stream 을 이용하는 것이 프로그래멍가 하는일 
 - 결론적으로 Stream 은 원시 데이터를 프로그래머가 사용할 수 있는 데이터로 바꾸어 주는 역할
 
-![](./stream1.jpg)
+![그림](stream1.jpg)
 
 결국 인코딩은 일련의 바이트(8bit)를 유니코드 단위(2 byte 또는 16 bit)단위로 해석하는 과정을 의미
 
-![](./stream2.gif)
+![그림](stream2.gif)
 
 바이트 단위로 입력받아 문자 스트림으로 처리
 - InputStreamReader로 부터 다른 인코딩 방식을 지정할 수 있음
@@ -177,7 +175,7 @@ public class CharacterStreamTest {
               }
        }
 }
-``
+```
 
 #  표준 스트림 (System.in, System.out, System.err)
 - 표준 입출력 스트림의 종류는 java.lang 패키지의 System 캘르스 내부에 선언되어 있음
@@ -189,6 +187,7 @@ public class CharacterStreamTest {
         ...
     }
 ```
+
 ## System.in
 키보드의 입력을 받아들이기 위해서 사용되는 입력 스트림
 입력 스트림 사용시에는 장치 이상 등으로 인한 여러가지 예외를 발생 시킨다. 
